@@ -1,40 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <!-- SEO Meta Tags -->
     <meta name="description" content="Kabamo">
     <meta name="author" content="Kabamo">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-	<meta property="og:site_name" content="" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta property="og:type" content="article" />
+    <meta property="og:site_name" content="" /> <!-- website name -->
+    <meta property="og:site" content="" /> <!-- website link -->
+    <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article" />
 
     <!-- Website Title -->
     <title>Kabamo</title>
-    
+
     <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
-	
-	<!-- Favicon  -->
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Favicon  -->
     <!-- <link rel="icon" href="images/favicon.png"> -->
 </head>
-<body data-spy="scroll" data-target=".fixed-top" style="background-color:#4f4dcf;">
-    
+
+<body data-spy="scroll" data-target=".fixed-top" style="background-color:#7d12a2;">
+
+    <!-- ~====================================================================================== -->
+
+    <div style="position:absolute; top: 278px; left: 0px; width: 100%; z-index: 0">
+        <svg class="header-frame" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+            viewBox="0 0 1920 310">
+            <defs>
+                <style>
+                    .cls-1 {
+                        fill: #8a14b3;
+                    }
+                </style>
+            </defs>
+            <title>header-frame</title>
+            <path class="cls-1"
+                d="M0,283.054c22.75,12.98,53.1,15.2,70.635,14.808,92.115-2.077,238.3-79.9,354.895-79.938,59.97-.019,106.17,18.059,141.58,34,47.778,21.511,47.778,21.511,90,38.938,28.418,11.731,85.344,26.169,152.992,17.971,68.127-8.255,115.933-34.963,166.492-67.393,37.467-24.032,148.6-112.008,171.753-127.963,27.951-19.26,87.771-81.155,180.71-89.341,72.016-6.343,105.479,12.388,157.434,35.467,69.73,30.976,168.93,92.28,256.514,89.405,100.992-3.315,140.276-41.7,177-64.9V0.24H0V283.054Z" />
+        </svg>
+    </div>
+
+    <div style="position:absolute; top: 200px; left: 0px; width: 100%; z-index: 0">
+        <svg class="footer-frame" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+            viewBox="0 0 1920 79">
+            <defs>
+                <style>
+                    .cls-2 {
+                        fill: #8a14b3;
+                    }
+                </style>
+            </defs>
+            <title>footer-frame</title>
+            <path class="cls-2"
+                d="M0,72.427C143,12.138,255.5,4.577,328.644,7.943c147.721,6.8,183.881,60.242,320.83,53.737,143-6.793,167.826-68.128,293-60.9,109.095,6.3,115.68,54.364,225.251,57.319,113.58,3.064,138.8-47.711,251.189-41.8,104.012,5.474,109.713,50.4,197.369,46.572,89.549-3.91,124.375-52.563,227.622-50.155A338.646,338.646,0,0,1,1920,23.467V79.75H0V72.427Z"
+                transform="translate(0 -0.188)" />
+        </svg>
+    </div>
+
+    <!-- ~====================================================================================== -->
+
     <!-- Preloader -->
-	<div class="spinner-wrapper">
+    <div class="spinner-wrapper">
         <div class="spinner">
             <div class="bounce1"></div>
             <div class="bounce2"></div>
@@ -42,28 +82,81 @@
         </div>
     </div>
     <!-- end of preloader -->
-    
-    <!-- Navigation -->
+
+    <!-- ~====================================================================================== -->
+
+    <!-- 
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
         <div class="container">
-
-            
-            <!-- Mobile Menu Toggle Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-awesome fas fa-bars"></span>
                 <span class="navbar-toggler-awesome fas fa-times"></span>
             </button>
-            <!-- end of mobile menu toggle button -->
-
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-               
             </div>
-        </div> <!-- end of container -->
-    </nav> <!-- end of navbar -->
-    <!-- end of navigation -->
+        </div>
+    </nav> 
+    -->
 
+    <!-- ~====================================================================================== -->
 
-    <!-- Header -->
+    <style>
+        .h {
+            margin-bottom: 0.4rem;
+            color: #f3f7fd;
+            font: 400 1.125rem/1.75rem "Open Sans", sans-serif;
+        }
+
+        .x {
+            color: #f3f7fd;
+            border-bottom: 4px solid #700d92;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 6px;
+        }
+
+        .d {
+            display: none;
+            color: #f3f7fd;
+            font-size: 18px;
+            margin-right: 6px;
+            margin-top: 20px;
+            padding-left: 10px;
+            border-left: 14px solid #700d92;
+            min-height: 140px;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+    <!-- ~====================================================================================== -->
+
+    <script>
+        function show(x) {
+            console.log(x);
+            $('#developed').hide();
+            $('#customized').hide();
+            $('#evaluated').hide();
+            $('#deployed').hide();
+            $('#priced').hide();
+            $('#hmm').hide();
+            if (false) { }
+            else if (x == 1) $('#developed').show();
+            else if (x == 2) $('#customized').show();
+            else if (x == 3) $('#evaluated').show();
+            else if (x == 4) $('#deployed').show();
+            else if (x == 5) $('#priced').show();
+            else $('#hmm').show();
+        }
+    </script>
+
+    <!-- ~====================================================================================== -->
+
     <header id="header" class="header">
         <div class="header-content" style="padding-top:1rem; padding-bottom:1rem">
             <div class="container">
@@ -71,69 +164,90 @@
                     <div class="col-lg-6 col-xl-5">
                         <div class="text-container">
                             <h1>Kabamo Digital</h1>
-                            <p class="p-large">Small Business solutions for Credit Unions.</p>
-                            <p class="p-large">Mobile and Online tools to help small businesses with the <i>STUFF THEY DO ALL DAY EVERY DAY</i> ... 
-                                <br/>
-                                <br/>
-                                ... quotes, jobs, projects, tasks, routing, scheduling, invoicing, payments, reconciliation, tracking, reviews, feedback, chat ... all connected to their preferred Credit Union.</p>
-                            <!-- <a class="btn-solid-lg page-scroll" href="sign-up.html">SIGN UP</a> -->
-                            <a class="btn-solid-lg popup-with-move-anim" href="#details-lightbox-1">Stay Informed</a>
-                        </div> <!-- end of text-container -->
-                    </div> <!-- end of col -->
+                            <p class="h">Redefining how Digital Banking is:</p>
+                            <div>
+                                <span class="x" onmouseover="show(1)" onclick="show(1)">developed</span>
+                                <span class="x" onmouseover="show(2)" onclick="show(2)">customized</span>
+                                <span class="x" onmouseover="show(3)" onclick="show(3)">evaluated</span>
+                                <span class="x" onmouseover="show(4)" onclick="show(4)">deployed</span>
+                                <span class="x" onmouseover="show(5)" onclick="show(5)">priced</span>
+                            </div>
+                            <div>
+                                <div id="developed" class="d">
+                                    <b>_developed</b> : Using a collaborative development process where all
+                                    customers have full access to source code and the power of git, do pull
+                                    requests, make feature branches, start builds, run tests, etc
+                                </div>
+                                <div id="customized" class="d">
+                                    <b>_customized</b> : With a robust api and sdk, plus full access to source
+                                    code, customizing and enhancing is no longer a hamstrung process. Keep or share,
+                                    it's up to you.
+                                </div>
+                                <div id="evaluated" class="d">
+                                    <b>_evaluated</b> : Imagine self provisioning an eval instance in 2 hours,
+                                    including connecting to your core, branding, and apps.
+                                </div>
+                                <div id="deployed" class="d">
+                                    <b>_deployed</b> : Deploy in our cloud, your cloud, your datacenter ... the
+                                    amount of control is up to you.
+                                </div>
+                                <div id="priced" class="d">
+                                    <b>_priced</b> : Why is pricing such a secret? open pricing means you know how
+                                    much it costs up front ... and you know what others paid.
+                                </div>
+                                <div id="hmm" class="d" style="display:block">
+                                    <!-- <b>online, web, voice</b> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-lg-6 col-xl-7">
                         <div class="image-container">
                             <div class="img-wrapper">
-                                <img class="img-fluid" src="images/header-software-app.png" alt="alternative">
-                            </div> <!-- end of img-wrapper -->
-                        </div> <!-- end of image-container -->
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of header-content -->
-    </header> <!-- end of header -->
-    <svg class="header-frame" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 310"><defs><style>.cls-1{fill:#5f4def;}</style></defs><title>header-frame</title><path class="cls-1" d="M0,283.054c22.75,12.98,53.1,15.2,70.635,14.808,92.115-2.077,238.3-79.9,354.895-79.938,59.97-.019,106.17,18.059,141.58,34,47.778,21.511,47.778,21.511,90,38.938,28.418,11.731,85.344,26.169,152.992,17.971,68.127-8.255,115.933-34.963,166.492-67.393,37.467-24.032,148.6-112.008,171.753-127.963,27.951-19.26,87.771-81.155,180.71-89.341,72.016-6.343,105.479,12.388,157.434,35.467,69.73,30.976,168.93,92.28,256.514,89.405,100.992-3.315,140.276-41.7,177-64.9V0.24H0V283.054Z"/></svg>
-    <!-- end of header -->
+                                <video poster="file:///C:/SCREEN/site.mp4" autoplay="autoplay" loop="loop" muted=""
+                                    width="600" height="600">
+                                    <source src="file:///C:/SCREEN/site.mp4" type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <!-- Details Lightbox 1 -->
-	<div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide" style="max-width:45rem">
-        <div class="container">
-            <div class="row">
-                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-                <div class="col-lg-12">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfHq8S8-2WTJtWQzyuVqaPYbD_HQMXJD65B2Y1v7NM42i7bAw/viewform?embedded=true" width="640" height="1400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of details lightbox 1 -->
+    <!-- ~====================================================================================== -->
 
-    <!-- Footer -->
-    <svg class="footer-frame" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 79"><defs><style>.cls-2{fill:#5f4def;}</style></defs><title>footer-frame</title><path class="cls-2" d="M0,72.427C143,12.138,255.5,4.577,328.644,7.943c147.721,6.8,183.881,60.242,320.83,53.737,143-6.793,167.826-68.128,293-60.9,109.095,6.3,115.68,54.364,225.251,57.319,113.58,3.064,138.8-47.711,251.189-41.8,104.012,5.474,109.713,50.4,197.369,46.572,89.549-3.91,124.375-52.563,227.622-50.155A338.646,338.646,0,0,1,1920,23.467V79.75H0V72.427Z" transform="translate(0 -0.188)"/></svg>
-    <div class="footer">
+    <div class="footer" style="padding-top:280px">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <div class="footer-col middle">
-                        <h4>Investors</h4>
+                        <!-- <h4>Investors</h4> -->
                         <ul class="list-unstyled li-space-lg p-small">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">contactus@kabamo.com</div>
+                            </li>
                             <li class="media">
                                 <i class="fas fa-square"></i>
                                 <div class="media-body">investor@kabamo.com</div>
                             </li>
-                            <li class="media">
+                            <!-- <li class="media">
                                 <i class="fas fa-square"></i>
                                 <div class="media-body">seed closed</div>
                             </li>
                             <li class="media">
                                 <i class="fas fa-square"></i>
                                 <div class="media-body">cuso opportunities</div>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div> <!-- end of col -->
                 <div class="col-md-4">
                     <div class="footer-col middle">
-                        <h4>Important Links</h4>
+                        <!-- <h4>Important Links</h4>
                         <ul class="list-unstyled li-space-lg p-small">
                             <li class="media">
                                 <i class="fas fa-square"></i>
@@ -147,47 +261,48 @@
                                 <i class="fas fa-square"></i>
                                 <div class="media-body">(Dec 2020)</div>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div> <!-- end of col -->
                 <div class="col-md-4">
                     <div class="footer-col last">
-                        <h4>Contact</h4>
+                        <!-- <h4>Contact</h4>
                         <ul class="list-unstyled li-space-lg p-small">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a class="white"
+                                        href="mailto:contactus@kabamo.com">contactus@kabamo.com</a></div>
+                            </li>
                             <li class="media">
                                 <i class="fas fa-square"></i>
                                 <div class="media-body">Austin TX 78703, USA</div>
                             </li>
                             <li class="media">
                                 <i class="fas fa-square"></i>
-                                <div class="media-body"><a class="white" href="mailto:contactus@kabamo.com">contactus@kabamo.com</a></div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
                                 <div class="media-body"><a class="white" href="#your-link">www.kabamo.com</a></div>
                             </li>
-                        </ul>
-                    </div> 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
-    <!-- end of footer -->
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- ~====================================================================================== -->
 
-    <!-- Copyright -->
     <div class="copyright">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small" style="opacity:0.3;">Copyright © 2020 <a href="https://inovatik.com" style="opacity:0.3;">Template by Inovatik</a></p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright --> 
-    <!-- end of copyright -->
-    
-    	
+                    <p class="p-small" style="opacity:0.3;">Copyright © 2020 <a href="https://inovatik.com"
+                            style="opacity:0.3;">Template by Inovatik</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ~====================================================================================== -->
+
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
@@ -198,4 +313,5 @@
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
 </body>
+
 </html>
